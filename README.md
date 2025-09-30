@@ -15,8 +15,8 @@ LR=LinearRegression ()
 x=df.iloc[:,:1]
 x.head()
 #assign target values to y
-y=df.iloc[:,1:]
-y.head(salary)
+y=df('salary')
+y.head(2)
 #train the model 
 LR.fit(x,y)
 test=([[1.5],[2.6],[5.8],[11],[13])
